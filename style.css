@@ -52,18 +52,14 @@ Letter Spacing: 5%
 }
 .descript
 {
-    /*X: 51px
-Y: 428px
-W: 231px
-H: 261px
-X Constraint: Left
-Y Constraint: Top
+    /*
 Font Family: Roboto
 Font Style: Light
 Font Size: (mixed)
 Line Height: 28px
-Align: Left
-Letter Spacing: 5%*/
+
+Letter Spacing: 5%
+*/
 
     position: absolute;
     top:428px;
@@ -71,18 +67,29 @@ Letter Spacing: 5%*/
     width: 293px;
     height: 74px; 
 
-    font-size: 36px;
-    text-align: center;
+    font-size: 20px;
+    text-align: left;
     letter-spacing: 1px;
 
     color:#FFFFFF;
 
 }
-.photo-img
+.title
 {
-    opacity: 1;
-}
-.middle-box
-{
-    width:75%;
+    /*
+    X: 491px
+Y: 108px
+W: 428px
+H: 248px
+X Constraint: Left
+Y Constraint: Top
+Font Family: Roboto
+Font Style: Thin
+Font Size: 72px
+Line Height: 84px
+Align: Center
+Letter Spacing: 5%
+Fill: Solid
+
+*/
 }
