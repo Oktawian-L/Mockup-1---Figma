@@ -73,9 +73,12 @@ a
 }
 .title
 {
+    /*
+    X: 491px
+    Y: 108px*/
     position: absolute;
     top: 108px;
-    left: 505px;
+    left: 491px;
     width: 428px;
     height: 248px; 
 
@@ -89,8 +92,10 @@ a
 }
 .cv-button
 {
-    /*X: 602px
-Y: 470px*/
+    /*
+    X: 602px
+    Y: 470px
+    */
     font-family: 'Roboto', sans-serif;
     background-blend-mode: multiply;
 
@@ -126,11 +131,14 @@ Y: 470px*/
 
 .nav 
 {
+    /*X: 545px
+    Y: 522px*/
+    top: 522px;
+    left: 535px;
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 522px;
-    left: 535px;
+    
 }
 
 .nav-item 
@@ -151,9 +159,6 @@ Y: 470px*/
     display: flex;
     align-items: center;
     justify-content: center;
-
- 
-
 }
 
 .nav-item a:hover 
