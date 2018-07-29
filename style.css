@@ -23,8 +23,6 @@ a
     background-color: black;
     color:white;
     opacity: 0.6;
-
-    /*Nazwisko*/
     text-align: center;
 }
 .photo
@@ -32,17 +30,13 @@ a
     width: 228px;
     height: 228px;   
     opacity: 0.9;
-
     position: absolute;
     top:118px;
     left:41px;
 }
 .nazw
 {
-   /*
-Font Family: Roboto
-Font Style: Light
-Line Height: 42px
+/*
 Letter Spacing: 5%
 */
     position: absolute;
@@ -52,7 +46,8 @@ Letter Spacing: 5%
     height: 74px; 
 
     font-size: 36px;
-    font-style: thin;
+    font-weight: 100;
+    line-height: 42px;
     text-align: center;
     letter-spacing: 1px;
 
@@ -61,21 +56,6 @@ Letter Spacing: 5%
 }
 .descript
 {
-    /*
-X: 51px
-Y: 428px
-W: 231px
-H: 261px
-X Constraint: Left
-Y Constraint: Top
-Font Family: Roboto
-Font Style: Light
-Font Size: (mixed)
-Line Height: 28px
-Align: Left
-Letter Spacing: 5%
-*/
-
     position: absolute;
     top: 428px;
     left: 51px;
@@ -85,6 +65,8 @@ Letter Spacing: 5%
     height: 261px; 
 
     font-size: 20px;
+    line-height: 28px;
+    font-weight: 100;
     text-align: left;
     letter-spacing: 1px;
 
@@ -93,16 +75,8 @@ Letter Spacing: 5%
 }
 .title
 {
-    /*
-Font Family: Roboto
-Font Style: Thin
-Line Height: 84px
-Letter Spacing: 5%
-Fill: Solid
-
-*/
     position: absolute;
-    top:108px;
+    top: 108px;
     left: 491px;
     width: 428px;
     height: 248px; 
@@ -110,19 +84,62 @@ Fill: Solid
     font-size: 72px;
     font-style: thin;
     text-align: center;
+    line-height: 84px;
     letter-spacing: 1px;
-
-
+    fill: solid;
     color:black;
 }
 .cv-button
 {
     /*
+H: 50px
+
+
+Blend: Pass Through
+Fill: Solid
+#000000
+Stroke: Solid
+Align: Inside
+Width: 1px
+#000000
+Effect: Drop Shadow
+Radius: 4px
+Offset: 0px, 4px
+rgba(0, 0, 0, 0.25)
+*/
+    font-family: 'Roboto', sans-serif;
+
+     position: absolute;
+    top: 470px;
+    left: 602px;
+    width: 205px;
+    height: 30px; 
+
+    font-size: 22px;
+    align-self: inside;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 26px;
+
+    border-radius: 20px;
+    opacity: 0.8;
+    color:#FFFFFF;
+    background-color: #000000;
+}
+.cv-button-text
+{
+/*
+X: 634px
+Y: 432px
+W: 141px
+H: 26px
 X Constraint: Left
 Y Constraint: Top
 Font Family: Roboto
 Font Style: Thin
+Font Size: 22px
 Line Height: 26px
+Align: Center
 Letter Spacing: 5%
 Fill: Solid
 #FFFFFF
@@ -134,19 +151,10 @@ Effect: Drop Shadow
 Radius: 4px
 Offset: 0px, 4px
 rgba(0, 0, 0, 0.25)
+
 */
-    position: absolute;
-    top:432px;
-    left: 634px;
-    width: 141px;
-    height: 26px; 
 
     font-size: 22px;
-    text-align: center;
-    letter-spacing: 1px;
-
-    color:#FFFFFF;
-    background-color: #000000;
 }
 
 .nav 
