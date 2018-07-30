@@ -32,7 +32,7 @@ a
     height: 228px;   
     opacity: 0.9;
     position: absolute;
-    top:118px;
+    top:68px;
     left:41px;
 }
 .nazw
@@ -63,7 +63,7 @@ a
     width: 231px;
     height: 261px; 
 
-    font-size: 20px;
+    font-size: 18px;
     line-height: 28px;
     font-weight: 100;
     text-align: left;
@@ -100,8 +100,8 @@ a
     background-blend-mode: multiply;
 
     position: absolute;
-    top: 470px;
-    left: 605px;
+    top: 400px;
+    left: 597px;
     width: 205px;
     height: 30px; 
 
@@ -134,7 +134,7 @@ a
     /*X: 545px
     Y: 522px*/
     top: 522px;
-    left: 535px;
+    left: 505px;
     display: flex;
     justify-content: center;
     position: absolute;
@@ -165,4 +165,10 @@ a
 {
     cursor: pointer;
     color:#F7E545;
+}
+.middle-box
+{
+    position: absolute;
+    width: 50%;
+    left: 150px;
 }
